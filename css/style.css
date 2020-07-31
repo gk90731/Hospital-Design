@@ -157,21 +157,23 @@ body{
 }
 .active-button{
     border: 1px solid #F35E77;
+    height: 3.1vmax;
+    width: 9vmax;
     border-radius: 2vmax;
     background-color: #F35E77;
     color: white;
-    font-size: 16px;
+    font-size: 2.1vmin;
     letter-spacing: 1px;
     cursor: pointer;
-    padding: 1.9vmin 5vmin 1.9vmin 5vmin;
 }
 .non-active-button{
     border: 3px solid #F35E77;
-    padding: 1.9vmin 5vmin 1.9vmin 5vmin;
+    height: 3.1vmax;
+    width: 9vmax;
     border-radius: 2vmax;
     background-color: transparent;
     color: rgb(90, 90, 90);
-    font-size: 16px;
+    font-size: 2.1vmin;
     letter-spacing: 1px; 
     cursor: pointer;
 }
@@ -257,14 +259,13 @@ body{
 }
 .add-blood{
     border: 1px solid #FF8C00;
-    height: auto;
-    width: auto;
+    height: 3.1vmax;
+    width: 9vmax;
     border-radius: 2vmax;
     background-color: #FF8C00;
     color: white;
-    font-size: 16px;
+    font-size: 2vmin;
     letter-spacing: 1px;
-    padding: 2.1vmin;
     cursor: pointer;
     font-weight: 600;
 }
