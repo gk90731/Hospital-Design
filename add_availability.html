@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital | Add availability</title>
+
+    <!-- link to css file -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/responsive-style.css" />
+
+    <!-- link to google icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <!-- header start ===============================================================================-->
+    <div class="header-parent-box">
+        <div class="header-parent-container">
+            <div class="left-header content">
+                <img class="header-logo" src="./assets/img/logo.png" alt="">
+                <span class="brand-name">Blood Bank</span>
+            </div>
+            <div class="right-header-content">
+                <button class="add-availability" type="submit">+ ADD AVAILABILITY</button>
+                <span>
+                    <i class="material-icons notification-icon">notifications_none</i>
+                    <!-- <span class="notification-badge">3</span> -->
+                </span>
+                <button class="non-active-button">Sign in</button>
+            </div>
+        </div>
+    </div>
+    <!-- header end   ===============================================================================-->
+    <div class="receiver-sheet" style="height: 800px;">
+        
+        <div class="right-box" style="width: 100%;">
+            <i class="material-icons label-icons cancel-cross">cancel</i>
+            <span class="button-group-center heading-sm">Post Blood Availability</span>
+            <div class="inputs-boxes">
+                <form>
+                    <div class="inputs inputs-sm">
+                        <span class="heading-sm">BLOOD GROUP :</span>
+                        <select name="BLOOD_GROUP">
+
+                            <option value="None Selected" style="cursor: not-allowed;" disabled selected>
+                                ---- SELECT ----</option>
+                            <option value="LOW">LOW</option>
+                            <option value="MODERATE">MODERATE</option>
+                            <option value="HIGH">HIGH</option>
+                        </select>
+                    </div>
+                    <div class="inputs inputs-sm">
+                        <span class="heading-sm">PLASMA LEVEL :</span>
+                        <select name="BLOOD_GROUP">
+
+                            <option value="None Selected" style="cursor: not-allowed;" disabled selected>
+                                ---- SELECT ----</option>
+                                <option value="LOW">LOW</option>
+                                <option value="MODERATE">MODERATE</option>
+                                <option value="HIGH">HIGH</option>
+                        </select>
+                    </div>
+                    <div class="inputs inputs-sm">
+                        <span class="heading-sm">RBC LEVEL :</span><br>
+                        <select name="BLOOD_GROUP">
+
+                            <option value="None Selected" style="cursor: not-allowed;" disabled selected>
+                                ---- SELECT ----</option>
+                                <option value="LOW">LOW</option>
+                                <option value="MODERATE">MODERATE</option>
+                                <option value="HIGH">HIGH</option>
+                        </select>
+                    </div>
+                    <div class="inputs inputs-sm">
+                        <span class="heading-sm">WBC LEVEL :</span><br>
+                        <select name="BLOOD_GROUP">
+
+                            <option value="None Selected" style="cursor: not-allowed;" disabled selected>
+                                ---- SELECT ----</option>
+                                <option value="LOW">LOW</option>
+                                <option value="MODERATE">MODERATE</option>
+                                <option value="HIGH">HIGH</option>
+                        </select>
+                    </div>
+                    <div class="inputs inputs-sm">
+                        <span class="heading-sm">SUGAR LEVEL :</span>
+                        <select name="BLOOD_GROUP">
+
+                            <option value="None Selected" style="cursor: not-allowed;" disabled selected>
+                                ---- SELECT ----</option>
+                                <option value="LOW">LOW</option>
+                                <option value="MODERATE">MODERATE</option>
+                                <option value="HIGH">HIGH</option>
+                        </select>
+                    </div>
+                    <div class="inputs" style="line-height: 7;">
+                        <input type="text" id="ADDRESS" required >
+                        <label for="ADDRESS"><i class="material-icons label-icons">science</i>&nbsp;
+                            QUANTITY :</label>
+                    </div>
+        
+            <div class="button-group-center">
+                <button class="add-availability" type="submit">POST AVAILABILTY</button>
+            </form>
+            </div>
+        </div>
+</body>
+
+</html>
