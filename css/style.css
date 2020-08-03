@@ -279,11 +279,14 @@ body{
                 main section ----------------------------------------------------- */
 .main-section-container{
     padding: 5% 12% 0px 12%;
+    display: flex;
+    flex-direction: row;
 }
 .table-container{
     border-collapse: collapse;
     width: 100%;
     background-color: white;
+    min-height: 400px;
 }
 .table-container thead {
     background: rgb(243, 243, 243);
@@ -294,7 +297,7 @@ body{
     letter-spacing: .5px;
     text-transform: uppercase;
     font-feature-settings: 'cv07' on,'kern' off;
-    color:  #484848;;
+    color:  #484848;
 }
 .table-container tr{
     height: 64px;
@@ -307,6 +310,7 @@ body{
     font-size: 14px;
     line-height: 1.57142857;
     font-weight: 400;
+    text-transform: lowercase;
 }
 .blood-group-data{
     background-color: rgb(252, 239, 241);
@@ -340,4 +344,48 @@ table input{
 }
 .inputs-sm{
     line-height: 3!important;
+}
+
+
+/* ===========
+                receiver dashboard ================================================================= */
+.blood-type-navigation{
+    width: 12%;
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+.heading-blood-group{
+    background: rgb(243, 243, 243);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    align-items: center;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    font-feature-settings: 'cv07' on,'kern' off;
+    color: #484848;
+    padding-top: 25px;
+    width: 100%;
+    /* align-self: center; */
+    /* margin: 0 auto; */
+    text-align: center;
+    height: 45px;
+}
+.blood-group-names{
+    display: grid;
+    justify-items: center;
+    height: 100%;
+}
+.blood-group-names span{
+    line-height: 3;
+    cursor: pointer;
+}
+.active-blood-group{
+    background-color: white;
+    background: white;
+    width: 60%;
+    padding-left: 40%;
+    border-left: 4px solid #F57B8F;
 }
