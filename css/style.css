@@ -292,7 +292,6 @@ body{
     border-collapse: collapse;
     width: 100%;
     background-color: white;
-    min-height: 400px;
 }
 .table-container thead {
     background: rgb(243, 243, 243);
@@ -444,6 +443,13 @@ table input{
     width: 60%;
     padding-left: 40%;
     border-left: 4px solid #F57B8F;
+}
+.threshold-box{
+    min-width: 76%;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    z-index: -1;
 }
 /* ------------
                 tooltip ----------------------------------------------------------------------- */
